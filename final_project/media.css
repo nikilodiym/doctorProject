@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card {
+        margin-bottom: 50px;
+        margin-left: 300px;
+    }
+
+    h1,
+    .info_h1_p,
+    .we_help_tetx {
+        width: 50%;
+    }
+
+    .eaasy_4_care{
+        margin-left: 100px;
+    }
+
+    .ar{
+       margin-left: 370px; 
+    }
+
+    .doctors_card1,
+    .doctors_card2,
+    .doctors_card3,
+    .doctors_card4 {
+        margin-right: 400px;
+    }
+
+    .visiy_doc_h2 {
+        margin-right: 400px;
+    }
+
+    .visiy_doc_h22{
+        text-align: none;
+        margin-left: 80px;
+    }
+
+    .hero_images,
+    .tree_sect,
+    .two_sect {
+        margin-bottom: 20px;
+    }
+
+    .burger span {
+        width: 100px;
+        height: 3px;
+        background-color: rgb(0, 0, 0);
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .hosp_mai9n {
+        margin-bottom: 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nonne,
+    .login_header {
+        display: none;
+    }
+
+    .hero_images{
+        width: 502px;
+        margin-right: 500px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1180px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero_images {
+        width: 500px;
+    }
+
+    h1 {
+        width: 500px;
+    }
+
+    .container {
+        width: 546px;
+    }
+
+    .visiy_doc_h2 {
+        text-align: start;
+    }
+
+    .last_grey h2 {
+        width: 400px;
+    }
+
+    .two_sect h2 {
+        width: 500px;
+        text-align: start;
+        margin-right: 100px;
+    }
+
+}
